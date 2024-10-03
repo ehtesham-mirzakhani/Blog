@@ -1,0 +1,18 @@
+# Python
+*.pyc
+*~
+__pycache__
+.idea
+
+# Env
+env/
+myvenv/
+venv/
+
+
+
+
+# Visual Studio
+.vscode/
+.history/
+*.code-workspace

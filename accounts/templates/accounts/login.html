@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h1>login page</h1>
+    <form method="post">
+    {% csrf_token %}
+                            {{ login_form.email.label_tag }}
+                            {{ login_form.email }}
+                            {{ login_form.email.errors }}
+                            {{ login_form.password.label_tag }}
+                            {{ login_form.password }}
+                            {{ login_form.password.errors }}
+    <button type="submit" class="btn btn-success">login</button>
+    
+    </form>
+</div>
+{% endblock %}
