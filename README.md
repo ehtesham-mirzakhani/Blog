@@ -56,5 +56,4 @@ Make sure you have the following installed:
     ```sh
     python manage.py runserver
     ```
-# Blog
-# Blog
+
